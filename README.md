@@ -1,4 +1,4 @@
-# # Attention is all you need ? Or Patches are all you need ? 🤷🏻
+#  Attention Or Patches ? What we really need ? 🤷🏻
 ![images](images/patches_are_all_you_need.png?raw=true)
 
 ### Authors
@@ -16,7 +16,7 @@ A tutorial is availible in this google colab: https://colab.research.google.com/
 
 For many years, the mainstream architecture in computer vision was CNNs, until the time when Vision Transformer (ViT), a transformer-based model shown promising performance. On later works, it was improved to outperform CNNs in many vision tasks. Where image resolutions are very large, the quadratic computation complexity of selfattention was a major bottleneck for vision. To tackle this problem, ViTs introduced the use of patch embeddings, which group together small regions of the image into single input features. This raises the idea that gains of vision transformers are due, in part, to patch representation as input. The question is to determine which factor is more important, the patch representation or the self-attention?
 
-In this sense, the paper recently appeared in review for ICLR 2022 [1], presents a new idea in computer vision. The authors present a new architecture named ConvMixer that destroy the pyramid architecture on CNNs and replace it by an isotropic one using patches.
+In this sense, Trockman et al. [1] presented a new idea in computer vision. The authors present a new architecture named ConvMixer that destroy the pyramid architecture on CNNs and replace it by an isotropic one using patches.
 
 The paper show that the new architecture outperforms ViT, for similar parameter counts and dataset sizes.
 
